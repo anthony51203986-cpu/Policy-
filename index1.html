@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Privacy Policy - Cecilia</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #f5f5f7;
+      margin: 0;
+      padding: 0;
+      color: #1a1a1a;
+    }
+
+    .fullscreen-panel {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .fullscreen-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      background: #f5f5f7;
+      border-bottom: 0.5px solid #e5e5ea;
+      position: sticky;
+      top: 0;
+    }
+
+    .fullscreen-back {
+      background: none;
+      border: none;
+      font-size: 28px;
+      cursor: pointer;
+      color: #667eea;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .fullscreen-back svg {
+      width: 24px;
+      height: 24px;
+      stroke: #667eea;
+      stroke-width: 2;
+      fill: none;
+    }
+
+    .fullscreen-header h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0;
+      color: #1a1a1a;
+    }
+
+    .fullscreen-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+    }
+
+    .fullscreen-content h4 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin: 16px 0 8px 0;
+    }
+
+    .fullscreen-content p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    .fullscreen-content ul {
+      margin: 8px 0 12px 20px;
+    }
+
+    .fullscreen-content li {
+      font-size: 14px;
+      color: #555;
+      margin: 6px 0;
+    }
+
+    hr {
+      margin: 20px 0;
+      border: none;
+      border-top: 1px solid #e5e5ea;
+    }
+  </style>
+</head>
+<body>
+  <div class="fullscreen-panel">
+    <div class="fullscreen-header">
+      <button class="fullscreen-back" onclick="goBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <h3>Privacy Policy</h3>
+      <div style="width: 40px;"></div>
+    </div>
+    <div class="fullscreen-content">
+      <h4>Information We Collect</h4>
+      <p><strong>Account Information:</strong> Email address, username, profile picture (if provided)</p>
+      <p><strong>Chat Data:</strong> All conversations with Cecilia, including messages, file uploads, and image descriptions</p>
+      <p><strong>Usage Data:</strong> Feature usage frequency, response times, error logs</p>
+      <p><strong>Device Information:</strong> Browser type, operating system, device model, IP address</p>
+      
+      <h4>How We Use Your Information</h4>
+      <ul>
+        <li>To provide and improve Cecilia's responses</li>
+        <li>To train and fine-tune AI models (anonymized)</li>
+        <li>To troubleshoot technical issues and fix bugs</li>
+        <li>To comply with legal obligations</li>
+      </ul>
+      
+      <h4>Data Storage & Security</h4>
+      <p>Your data is stored securely using <strong>Firebase Firestore</strong> and <strong>Firebase Storage</strong>. We use encryption for data in transit (TLS) and at rest. However, no method of transmission is 100% secure.</p>
+      
+      <h4>Third-Party Services</h4>
+      <p>We use the following third-party services:</p>
+      <ul>
+        <li><strong>Firebase (Google):</strong> Authentication, database, storage</li>
+        <li><strong>Groq:</strong> AI processing for chat responses</li>
+        <li><strong>Tavily:</strong> Web search functionality</li>
+        <li><strong>Mistral AI:</strong> Alternative AI processing</li>
+        <li><strong>Wolfram Alpha:</strong> Math calculations</li>
+        <li><strong>OpenRouter:</strong> Vision model for image analysis</li>
+      </ul>
+      
+      <h4>Data Retention</h4>
+      <p>Your chat history is retained until you delete your account. File uploads are stored until the associated chat is deleted.</p>
+      
+      <h4>Your Rights</h4>
+      <ul>
+        <li><strong>Access:</strong> View all your data</li>
+        <li><strong>Correction:</strong> Update your profile information</li>
+        <li><strong>Deletion:</strong> Delete your account and all associated data</li>
+        <li><strong>Export:</strong> Download your chat history</li>
+      </ul>
+      
+      <h4>Children's Privacy</h4>
+      <p>Cecilia is not intended for children under 13 years old. We do not knowingly collect data from children under 13. If you believe a child has provided us with data, please contact us.</p>
+      
+      <h4>Cookies</h4>
+      <p>We use localStorage to save your preferences (like font size, voice selection, and theme). No tracking cookies are used.</p>
+      
+      <h4>International Data Transfer</h4>
+      <p>Your data may be processed on servers located in the United States and Europe. By using Cecilia, you consent to this transfer.</p>
+      
+      <h4>Changes to Privacy Policy</h4>
+      <p>We may update this policy. We will notify you of significant changes via email or in-app notice.</p>
+      
+      <h4>Contact Us</h4>
+      <p>Email: <strong>anthony51203986@gmail.com</strong></p>
+      
+      <hr>
+      <p style="font-size: 12px; color: #999;">Last updated: May 4, 2026</p>
+      <p style="font-size: 12px; color: #999; margin-top: 8px;">© 2026 Mwanza. Cecilia™</p>
+    </div>
+  </div>
+
+  <script>
+    function goBack() {
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html> 
